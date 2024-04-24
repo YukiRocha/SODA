@@ -1,0 +1,175 @@
+@media screen and (max-width: 768px) {
+    #header-nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .nav-list {
+        margin-top: 20px;
+    }
+
+    .nav-list li {
+        margin: 0 20px;
+    }
+
+    #main-nav {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .right-side {
+        text-align: center;
+    }
+
+    .comic-button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .sub-title {
+        font-size: 24px;
+    }
+
+    .paragraphy {
+        font-size: 14px;
+    }
+
+    .comic-button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    aside img {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7e9d4;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 70px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.nav-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 60px;
+}
+
+.nav-list li a {
+    text-decoration: none; 
+    color: #1f1f1f; 
+    font-weight: normal; 
+}
+
+.nav-list li a:hover {
+    color: #eb2439;
+    font-weight: bold; 
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 70px;
+    margin-top: 30px;
+}
+
+.right-side {
+    flex: 2; 
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #eb2439;
+}
+
+.sub-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.color-text {
+    color: #eb2439; 
+}
+
+.paragraphy {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn-main {
+    margin-top: 30px;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #eb2439;
+    border: 2px solid #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #1f1f1f;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #eb2439;
+    border: 2px solid #eb2439;
+    box-shadow: 5px 5px 0px #eb2439;
+  }
+  
+  .comic-button:active {
+    background-color: #282b5c;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+  .left-side {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside img {
+    width: 370px;
+}
+
+#footer-nav {
+    display: flex;
+    color: #1f1f1f; 
+    text-align: center; 
+    padding: 12px; 
+}
+
+
